@@ -1,0 +1,200 @@
+body{
+    background-image: url(/asset/ABSTRACT_BACKGROUND_01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+}
+html{
+    margin: 2% 10%;
+}
+/*** ESTILOS BOTÓN GROW SKEW ***/
+.ov-btn-grow-skew {
+    background: 0; /* color de fondo */
+    color: #fff; /* color de fuente */
+    border: 1px solid tomato; /* tamaño y color de borde */
+    padding: 10px;
+    border-radius: 8px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+  }
+  .ov-btn-grow-skew:hover {
+    color: #fff;/* color de fuente hover */
+  }
+  .ov-btn-grow-skew::after {
+    content: "";
+    background: red; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .ov-btn-grow-skew:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+
+ /* NAVBAR*/
+
+ .navbar{
+     text-align: center;
+     background-color: rgba(0, 0, 0, 0.5);
+     border-radius: 5px;
+ }
+ .foto-navbar{
+     border-radius: 50%;
+     height: 50px;
+     border: 2px solid red;
+ }
+ .nav-link{
+     color: #fff;
+     justify-content: center;
+ }
+ .navbar-brand{
+     color: #fff;
+ }
+ .nav-item{
+
+    padding: 5px;
+ }
+#navbarSupportedContent{
+    justify-content: end;
+}
+
+/* FIN NAVBAR */
+
+/* PERFIL */
+
+.perfil{
+    margin-top: 15px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+}
+.fotoBoxPerfil{
+    height: 350px;
+    width: 360px;
+    border-radius: 10px;
+}
+.box-perfil-1{
+    display: flex;
+    padding: 10px;
+}
+.box-perfil-1 p{
+    color: #fff;
+}
+.texto{
+    color: #fff;
+    padding-left: 15px;
+}
+
+.titulos{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    padding: 10px;
+}
+.titulos img{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+}
+.imagen-lenguaje {
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.nombres {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    align-items: center;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 8px;
+}
+.name-lenguaje {
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+
+/* FIN PERFIL */
+
+/* FOOTER */
+.footer{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+    padding: 60px;
+    border-radius: 5px;
+    display:block;
+    
+}
+.container-footer{
+    padding: 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.icon-contacto{
+    width: 50px;
+    height: 50px;
+    padding: 1%;
+    background-color: tomato;
+    border-radius: 10px;
+}
+
+.informacion{
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.informacion img{
+    height: 20px;
+}
+
+@media only screen and (max-width: 850px){
+    .box-perfil-1{
+        display: block;
+        padding: 10px;
+    }
+    .fotoBoxPerfil{
+        height: 200px;
+        width: 200px;
+        border-radius: 5px;
+    }
+    .titulos img{
+       height: 30px;
+       width: 30px;
+    }
+    .texto{
+        padding: 5px;
+    }
+
+    .fotoperfilcomienzo{
+        text-align: center;
+    }
+
+}

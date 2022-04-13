@@ -1,0 +1,105 @@
+body{
+    background-image: url(/asset/ABSTRACT_BACKGROUND_01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+}
+html{
+    margin: 2% 10%;
+}
+.container-padre{
+    display: block;
+    justify-content: center;
+}
+.box1{
+    text-align: center;
+}
+.fotoPerfil{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 2px solid tomato;
+    justify-content: center;
+}
+.fotoPerfil:hover{
+border: 7px solid red;
+height: 200px;
+width: 200px;
+}
+.box2{
+    color: white;
+    padding-top: 35px;
+    text-align: center;
+}
+span{
+    color: tomato;
+}
+.box3{
+    text-align: center;
+}
+.icon-contacto{
+    width: 50px;
+    height: 50px;
+    padding: 1%;
+    margin-bottom: 1%;
+    background-color: tomato;
+    border-radius: 10px;
+}
+
+.icon-contacto:hover{
+    background-color: red;
+    width: 55px;
+    height: 55px;
+}
+.box4{
+    text-align: center;
+}
+
+.lista{
+    padding-top: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.lista1{
+    padding-top: 10px;
+}
+
+/*** ESTILOS BOTÓN GROW SKEW ***/
+.ov-btn-grow-skew {
+    background: 0; /* color de fondo */
+    color: #fff; /* color de fuente */
+    border: 1px solid tomato; /* tamaño y color de borde */
+    padding: 10px;
+    border-radius: 8px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+  }
+  .ov-btn-grow-skew:hover {
+    color: #fff;/* color de fuente hover */
+  }
+  .ov-btn-grow-skew::after {
+    content: "";
+    background: red; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .ov-btn-grow-skew:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+ 
+ 
