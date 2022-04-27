@@ -1,0 +1,14 @@
+.gotop-container{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 4rem;
+    height: 4rem;
+    margin-right: 0px;
+    border-radius: 50%;
+    }
+
+.gotop-boton img{
+    height: 50px;
+    width: 50px;
+}
