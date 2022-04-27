@@ -102,9 +102,11 @@ html{
 }
 
 .formulario-contacto{
-    text-align: center;
-    display: flex;
+    text-align: start;
+    display: block;
     justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .form-group{
     padding: 5px;
@@ -115,6 +117,7 @@ html{
     border: 1px solid red;
     padding: 15px;
     border-radius: 5px;
+    display: block;
 }
 
 /* FIN CONTACTO */
@@ -158,5 +161,9 @@ html{
 
 @media only screen and (max-width: 850px){
     
+    .formulario-contacto{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
 
 }
