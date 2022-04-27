@@ -7,7 +7,17 @@ body{
     display: block;
 }
 html{
-    margin: 2% 10%;
+    margin: 1% 10%;
+}
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('images/pageLoader.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
 }
 /*** ESTILOS BOTÓN GROW SKEW ***/
 .ov-btn-grow-skew {
@@ -49,11 +59,11 @@ html{
 
  .navbar{
      text-align: center;
-     background-color: rgba(0, 0, 0, 0.5);
+     background-color: rgba(0, 0, 0, 0);
      border-radius: 5px;
  }
  .foto-navbar{
-     border-radius: 50%;
+     border-radius: 5%;
      height: 50px;
      border: 2px solid red;
  }

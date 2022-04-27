@@ -1,17 +1,8 @@
-body{
-    background-image: url(/asset/ABSTRACT_BACKGROUND_01.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    display: block;
-}
-html{
-    margin: 4% 10%;
-}
-.container-padre{
+.container-presentacion{
     display: block;
     justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
 }
 .box1{
     text-align: center;
@@ -19,14 +10,14 @@ html{
 .fotoPerfil{
     height: 180px;
     width: 180px;
-    border-radius: 50%;
-    border: 2px solid tomato;
+    border-radius: 5%;
+    border: 1px solid tomato;
     justify-content: center;
 }
 .fotoPerfil:hover{
-border: 7px solid red;
-height: 200px;
-width: 200px;
+border: 2px solid red;
+height: 190px;
+width: 190px;
 }
 .box2{
     color: white;
@@ -50,8 +41,8 @@ span{
 
 .icon-contacto:hover{
     background-color: red;
-    width: 55px;
-    height: 55px;
+    width: 52px;
+    height: 52px;
 }
 .box4{
     text-align: center;

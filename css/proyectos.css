@@ -1,14 +1,4 @@
-body{
-    background-image: url(/asset/ABSTRACT_BACKGROUND_01.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    display: block;
-}
-html{
-    margin: 2% 10%;
-}
+
 /*** ESTILOS BOTÓN GROW SKEW ***/
 .ov-btn-grow-skew {
     background: 0; /* color de fondo */
@@ -45,34 +35,7 @@ html{
     transform: skewX(-45deg) scale(1, 1);
   }
 
- /* NAVBAR*/
-
- .navbar{
-     text-align: center;
-     background-color: rgba(0, 0, 0, 0.5);
-     border-radius: 5px;
- }
- .foto-navbar{
-     border-radius: 50%;
-     height: 50px;
-     border: 2px solid red;
- }
- .nav-link{
-     color: #fff;
-     justify-content: center;
- }
- .navbar-brand{
-     color: #fff;
- }
- .nav-item{
-
-    padding: 5px;
- }
-#navbarSupportedContent{
-    justify-content: end;
-}
-
-/* FIN NAVBAR */
+ 
 
 /* TARJETAS */
 .titulos{
@@ -104,39 +67,3 @@ html{
 /* FIN TARJETAS */
 
 
-/* FOOTER */
-
-.footer{
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin-top: 15px;
-    padding: 60px;
-    border-radius: 5px;
-    display:block;
-    
-}
-.container-footer{
-    padding: 20px;
-    border: 1px solid red;
-    border-radius: 5px;
-}
-.icon-contacto{
-    width: 50px;
-    height: 50px;
-    padding: 1%;
-    background-color: tomato;
-    border-radius: 10px;
-}
-
-.informacion{
-    padding: 20px;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-}
-
-.informacion img{
-    height: 20px;
-}
-
-/* FIN FOOTER */
