@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="/css/resumen.css">
     <link rel="stylesheet" href="/css/landingpage.css">
     <link rel="stylesheet" href="/css/gotop.css">
+    <link rel="stylesheet" href="/css/animate.min.css">
+    
     
 
     <!-- CSS only -->
@@ -35,9 +37,6 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link ov-btn-grow-skew active" aria-current="page" href="/index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link ov-btn-grow-skew active" href="#sobremi">Sobre mí</a>
                         </li>
                         <li class="nav-item">
@@ -58,12 +57,12 @@
 
         <!-- PRESENTACIÓN -->
 
-        <div class="container-presentacion" id="inicio">
+        <div class="container-presentacion wow animated__animated animate__slideInUp" id="inicio">
             <div class="box1">
                 <img class="fotoPerfil" src="/asset/foto-perfil.jpg" alt="">
             </div>
             <div class="box2">
-                <h1>{ FRANCO OSMAN } </h1>
+                <h1 class="wow animate__slideInUp"><span class="llaves wow animate__fadeIn">{</span> FRANCO OSMAN <span class="llaves wow animate__bounceInRight">}</span></h1>
                 <p>Soy un apasionado <span>DESARROLLADOR FRONT-END</span> | Amante de las buenas interfases | Busco aprender cosas nuevas constantemente | Valorador del tiempo y la organización.</p>
 
             </div>
@@ -89,7 +88,7 @@
 
         <!-- PERFIL -->
 
-        <div id="sobremi" class="perfil">
+        <div id="sobremi" class="perfil wow animate__slideInLeft">
             <div class="box-perfil">
                 <div class="titulos">
                     <img src="/asset/proximo.png" alt="">
@@ -164,7 +163,7 @@
 
         <!-- RESUMEN -->
 
-        <nav id="resumen" class="resumen">
+        <nav id="resumen" class="resumen wow animate__slideInRight">
             <nav class="box-resumen">
                 <nav class="box-carrera">
                     <div class="titulos">
@@ -265,7 +264,7 @@
 
             <!-- PROYECTOS -->
 
-            <nav id="proyectos" class="proyectos">
+            <nav id="proyectos" class="proyectos wow animate__slideInLeft">
                 <div class="titulos">
                     <img src="/asset/management.png" alt="">
                     <h2>MIS PROYECTOS</h2>
@@ -321,7 +320,7 @@
 
             <!-- CONTACTO -->
 
-            <nav id="contacto" class="contacto">
+            <nav id="contacto" class="contacto wow animate__slideInRight">
                 <div class="titulos">
                     <img src="/asset/contact-information.png" alt="">
                     <h2>CONTÁCTAME</h2>
@@ -410,6 +409,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script src="/js/wow.min.js"></script>
+    <script>
+              new WOW().init();
+    </script>
 </body>
 
 </html>
